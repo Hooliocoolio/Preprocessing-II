@@ -1,29 +1,27 @@
-// Navigation Styles here
-header {
-    width: 800px;
-    background: white;
-    padding-top: 20px;
-    padding-bottom: 10px;
-    display: flex;
-    justify-content: space-between;
-    margin: auto;
-    // margin-top: 10px;
-    
-        nav {
-            // text-align: center;
-            margin: 10px 0px;
-            padding-top: 10px;
-            padding-bottom: 10px;
+//Navigation Styles here 
+
+
+ header {
+        width: 800px;
+        margin: auto;
+        display:flex;
+        justify-content: space-between;
+        padding:20px;
+        margin-top:20px;
+
+        @media @mobile {
+            .mobile
         }
         
-        a {
-            padding: 10px;
-            text-decoration-line: none;
-            color: black;
-        }
-        
-        a:hover {
-            color: red;
-        }
  
-}
+            nav {
+                padding-top:20px;
+                text-decoration: none;
+                text-align: center;
+
+                a {
+                  padding:20px;
+                  text-decoration: none;
+                }
+            }
+        }

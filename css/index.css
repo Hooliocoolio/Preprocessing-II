@@ -1,3 +1,22 @@
+.grnbutton {
+  width: 75%;
+  height: 40px;
+  border-radius: 15px;
+  color: white;
+  background: teal;
+  text-align: center;
+  margin: auto;
+  padding: 5%;
+  font-size: 1.7em;
+}
+.mobile {
+  width: 100%;
+  margin: auto;
+  display: block;
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -170,25 +189,30 @@ img {
 }
 header {
   width: 800px;
-  background: white;
-  padding-top: 20px;
-  padding-bottom: 10px;
+  margin: auto;
   display: flex;
   justify-content: space-between;
-  margin: auto;
+  padding: 20px;
+  margin-top: 20px;
+}
+@media (max-width: 500px) {
+  header {
+    width: 100%;
+    margin: auto;
+    display: block;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+  }
 }
 header nav {
-  margin: 10px 0px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 20px;
+  text-decoration: none;
+  text-align: center;
 }
-header a {
-  padding: 10px;
-  text-decoration-line: none;
-  color: black;
-}
-header a:hover {
-  color: red;
+header nav a {
+  padding: 20px;
+  text-decoration: none;
 }
 .footer {
   width: 100%;
@@ -217,6 +241,10 @@ header a:hover {
   width: 48%;
   padding-right: 1%;
   padding-top: 1%;
+  margin-top: 2%;
+}
+.home .content-section .text-content #top {
+  margin-top: 5px;
 }
 .home .content-section .img-content {
   width: 48%;
@@ -251,6 +279,19 @@ header a:hover {
   justify-content: space-between;
 }
 .home .content-pick .destination {
-  width: 30%;
+  width: 29%;
   margin-bottom: 30px;
+  margin-right: 10px;
+  text-align: center;
+}
+.home .content-pick .destination .btn {
+  width: 75%;
+  height: 40px;
+  border-radius: 15px;
+  color: white;
+  background: teal;
+  text-align: center;
+  margin: auto;
+  padding: 5%;
+  font-size: 1.7em;
 }
